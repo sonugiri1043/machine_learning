@@ -3,15 +3,6 @@
 > sonu@arista.com
 > https://www.linkedin.com/in/sonugiri/
 
-## Topics:
-### Convolution
-### Filters/Kernels
-### 3x3 Convolution
-### 1x1 Convolution
-### Feature Maps
-### Receptive Field
-### Creating GitHub account and project
-
 ## Convolution
 > Convolution operation in context of Convolutional Neural Network ( CNN ) is element wise matrix multiplication and summation. It involves a kernel/filter and an input. The filter is element wise multipled with the input array and summation of multiplied values is done. The filter moves across the input and this operation is repeated at each step.
 > 
@@ -45,12 +36,3 @@ A feature map is the result of convolution applied on an input with a filter. Fe
 > The below image describing a local and a global receptive field
 > 
 ![Receptive Filed](https://cdn-images-1.medium.com/max/2000/1*mModSYik9cD9XJNemdTraw.png)
-
-## Creating GitHub account and project
-> 1. Go to github website (https://github.com/) and create an account using email id.
-> 2. You can optionally chose to generate a SSH key and add to your github account, this will allow you to push or pull any changes without asking your username and password everytime.
-> 3. After this you can go to project tab and create a project. Fill up the details like project name and description.
-> 4. From CLI you can do 'git init "repository-name"' to create or initialize a repository.
-> 5. Use the following cheat sheet to do operation on your newly created github repository.
-> ![git cheet sheet](https://www.git-tower.com/blog/content/posts/54-git-cheat-sheet/git-cheat-sheet-large01.png)
-> 
