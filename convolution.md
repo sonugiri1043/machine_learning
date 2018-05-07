@@ -4,13 +4,13 @@
 > https://www.linkedin.com/in/sonugiri/
 
 ## Topics:
-> Convolution
-> Filters/Kernels
-> 3x3 Convolution
-> 1x1 Convolution
-> Feature Maps
-> Receptive Field
-> Creating GitHub account and project
+### Convolution
+### Filters/Kernels
+### 3x3 Convolution
+### 1x1 Convolution
+### Feature Maps
+### Receptive Field
+### Creating GitHub account and project
 
 ## Convolution
 > Convolution operation in context of Convolutional Neural Network ( CNN ) is element wise matrix multiplication and summation. It involves a kernel/filter and an input. The filter is element wise multipled with the input array and summation of multiplied values is done. The filter moves across the input and this operation is repeated at each step.
