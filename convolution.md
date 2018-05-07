@@ -1,7 +1,4 @@
-# Assignment EIP-Batch 7 Session-1
-> Sonu Giri
-> sonu@arista.com
-> https://www.linkedin.com/in/sonugiri/
+#Session 1
 
 ## Convolution
 > Convolution operation in context of Convolutional Neural Network ( CNN ) is element wise matrix multiplication and summation. It involves a kernel/filter and an input. The filter is element wise multipled with the input array and summation of multiplied values is done. The filter moves across the input and this operation is repeated at each step.
