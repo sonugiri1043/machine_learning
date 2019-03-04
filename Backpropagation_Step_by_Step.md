@@ -29,7 +29,7 @@ Our initial weights will be as following:
 * **w5 : 0.16**
 * **w6 : 0.20**
 
-#Dataset
+# Dataset
 
 Our dataset has one sample with two input and one output.
 
@@ -60,7 +60,7 @@ Now, it's time to find out how our network performed by calculating the differen
 * **actual output = 1.0**
 * **Error =  ( ( 0.214 - 1.0) ^2  ) / 2 = 0.3089**
 
-#Reducing Error
+# Reducing Error
 
 Our main goal of training is to reduce the **error** or the difference between **prediction** and **actual output**. Since **actual output** is constant, "not changing", the only way to reduce the error is to change **prediction** value. The question now is, how to change **prediction** value ?
 
@@ -71,7 +71,7 @@ By decomposing **prediction** into its basic elements we can find that **weights
 The question now is **how to change\update the weights value so that the error is reduced?**
 The answer is **Backpropagation!**
 
-#Backpropogation
+# Backpropogation
 
 **Backpropogation**, short for "backward propogation of errors", is a mechanism used to update the **weights** using gradient descent. It calculates the gradient of the error function with respect to the neural network's weights. The calculation proceeds backwards through the network.
 
@@ -109,7 +109,7 @@ We can rewrite the update formulas in matrices as following
 
 ![bp_update_all_weights_matrix](http://hmkcode.github.io/images/ai/bp_update_all_weights_matrix.png)
 
-## Backward Pass
+# Backward Pass
 
 Using derived formulas we can find the new **weights**.
 
@@ -135,8 +135,6 @@ Now, using the new **weights** we will repeat the forward passed.
 Where * = new values
 
 We can notice that the **prediction** `0.286` is a little bit closer to **actual output** than the previously predicted one `0.214`. We can repeat the same process of backward and forward pass until **error** is close or equal to zero.
-
-
 
 # Python Code
 
@@ -199,4 +197,4 @@ print "Predicted output after fws propogation: ", predictedOut # [ 0.29414432]
 
 © 2018 mkkcode . All rights reserved.
 
-© 2018  Sonu Giri ( sonugiri1043 )
+© 2018  Sonu Giri ( sonugiri1043 ). All rights reserved.
