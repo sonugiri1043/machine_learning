@@ -49,7 +49,7 @@ We will use weights and inputs to predicts the output. Inputs are multiplied by 
 
 
 
-#Calculationg Error
+# Calculationg Error
 
 Now, it's time to find out how our network performed by calculating the difference between the actual output and predicted one. It's clear thay our network output, or **prediction**, is not even close to **actual output**. We can calculate the difference or the error as following.
 
